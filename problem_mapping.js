@@ -34,7 +34,7 @@ problem_mapping = {
                 "total": 10001
             },
             "Java: SwapBits.java": {
-                "passed": 0,
+                "passed": 10001,
                 "total": 10001
             },
             "Python: swap_bits.py": {
@@ -48,7 +48,7 @@ problem_mapping = {
                 "total": 10000
             },
             "Java: ReverseBits.java": {
-                "passed": 0,
+                "passed": 10000,
                 "total": 10000
             },
             "Python: reverse_bits.py": {
@@ -65,7 +65,7 @@ problem_mapping = {
                 "passed": 0,
                 "total": 10000
             },
-            "Python: closest_int_same_weight.py": { 
+            "Python: closest_int_same_weight.py": {
                 "passed": 0,
                 "total": 10000
             }
@@ -160,7 +160,7 @@ problem_mapping = {
                 "total": 10000
             },
             "Java: RectangleIntersection.java": {
-                "passed": 0,
+                "passed": 10000,
                 "total": 10000
             },
             "Python: rectangle_intersection.py": {
@@ -792,7 +792,7 @@ problem_mapping = {
                 "total": 203
             },
             "Java: RemoveDuplicatesFromSortedList.java": {
-                "passed": 0,
+                "passed": 203,
                 "total": 203
             },
             "Python: remove_duplicates_from_sorted_list.py": {

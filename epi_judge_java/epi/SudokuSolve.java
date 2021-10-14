@@ -4,16 +4,13 @@ import epi.test_framework.GenericTest;
 import epi.test_framework.TestFailure;
 import epi.test_framework.TimedExecutor;
 
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Objects;
-import java.util.Set;
+import java.util.*;
+
 public class SudokuSolve {
   public static boolean solveSudoku(List<List<Integer>> partialAssignment) {
-    // TODO - you fill in here.
-    return true;
+    return false;
   }
+
   @EpiTest(testDataFile = "sudoku_solve.tsv")
   public static void solveSudokuWrapper(TimedExecutor executor,
                                         List<List<Integer>> partialAssignment)

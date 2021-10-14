@@ -3,10 +3,35 @@ import epi.test_framework.EpiTest;
 import epi.test_framework.GenericTest;
 import epi.test_framework.TestFailure;
 import epi.test_framework.TimedExecutor;
+
 public class IsListCyclic {
 
   public static ListNode<Integer> hasCycle(ListNode<Integer> head) {
     // TODO - you fill in here.
+    ListNode<Integer> backIterator = head;
+    ListNode<Integer> frontIterator = head;
+    while(frontIterator != null && frontIterator.next != null){
+      backIterator = backIterator.next;
+      frontIterator = frontIterator.next.next;
+      if(backIterator == frontIterator){
+        int cycleSize = 0;
+        do{
+          cycleSize++;
+          frontIterator = frontIterator.next;
+        }while(backIterator != frontIterator);
+
+        ListNode<Integer> inCycle = head;
+        while(cycleSize-- > 0)
+          inCycle = inCycle.next;
+
+        ListNode<Integer> cycleStart = head;
+        while(inCycle != cycleStart){
+          cycleStart = cycleStart.next;
+          inCycle = inCycle.next;
+        }
+        return cycleStart;
+      }
+    }
     return null;
   }
   @EpiTest(testDataFile = "is_list_cyclic.tsv")

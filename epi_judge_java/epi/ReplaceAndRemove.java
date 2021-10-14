@@ -8,8 +8,32 @@ import java.util.List;
 public class ReplaceAndRemove {
 
   public static int replaceAndRemove(int size, char[] s) {
-    // TODO - you fill in here.
-    return 0;
+    int write = 0;
+    int numA = 0;
+    //remove b's and count a's
+    for(int i = 0; i < size; i++){
+      if(s[i] != 'b'){
+        s[write++] = s[i];
+      }
+      if(s[i] == 'a')
+        numA++;
+    }
+
+    //go backwards and add the d's
+    int current = write - 1;
+    write += (numA -1);
+    int finalSize = write + 1;
+    while(current >= 0){
+      if(s[current] == 'a'){
+        s[write--] = 'd';
+        s[write--] = 'd';
+      }
+      else{
+        s[write--] = s[current];
+      }
+      current--;
+    }
+    return finalSize;
   }
   @EpiTest(testDataFile = "replace_and_remove.tsv")
   public static List<String>

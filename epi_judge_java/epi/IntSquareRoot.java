@@ -5,8 +5,16 @@ public class IntSquareRoot {
   @EpiTest(testDataFile = "int_square_root.tsv")
 
   public static int squareRoot(int k) {
-    // TODO - you fill in here.
-    return 0;
+    long left = 0, right = k;
+    while(left <= right){
+      long mid = left + ((right - left) /2);
+      long squared = mid * mid;
+      if(squared <= k)
+        left = mid + 1;
+      else
+        right = mid - 1;
+    }
+    return (int)left - 1;
   }
 
   public static void main(String[] args) {

@@ -948,7 +948,7 @@ problem_mapping = {
                 "total": 3852
             },
             "Java: TreeLevelOrder.java": {
-                "passed": 0,
+                "passed": 3852,
                 "total": 3852
             },
             "Python: tree_level_order.py": {
@@ -962,7 +962,7 @@ problem_mapping = {
                 "total": 65
             },
             "Java: CircularQueue.java": {
-                "passed": 0,
+                "passed": 65,
                 "total": 65
             },
             "Python: circular_queue.py": {
@@ -1006,7 +1006,7 @@ problem_mapping = {
                 "total": 3852
             },
             "Java: IsTreeBalanced.java": {
-                "passed": 0,
+                "passed": 3852,
                 "total": 3852
             },
             "Python: is_tree_balanced.py": {
@@ -1020,7 +1020,7 @@ problem_mapping = {
                 "total": 3852
             },
             "Java: IsTreeSymmetric.java": {
-                "passed": 0,
+                "passed": 3852,
                 "total": 3852
             },
             "Python: is_tree_symmetric.py": {
@@ -1048,7 +1048,7 @@ problem_mapping = {
                 "total": 948
             },
             "Java: LowestCommonAncestorWithParent.java": {
-                "passed": 0,
+                "passed": 948,
                 "total": 948
             },
             "Python: lowest_common_ancestor_with_parent.py": {
@@ -1218,7 +1218,7 @@ problem_mapping = {
                 "total": 152
             },
             "Java: SortedArraysMerge.java": {
-                "passed": 0,
+                "passed": 152,
                 "total": 152
             },
             "Python: sorted_arrays_merge.py": {
@@ -1246,7 +1246,7 @@ problem_mapping = {
                 "total": 101
             },
             "Java: SortAlmostSortedArray.java": {
-                "passed": 0,
+                "passed": 101,
                 "total": 101
             },
             "Python: sort_almost_sorted_array.py": {
@@ -1260,7 +1260,7 @@ problem_mapping = {
                 "total": 51
             },
             "Java: KClosestStars.java": {
-                "passed": 0,
+                "passed": 51,
                 "total": 51
             },
             "Python: k_closest_stars.py": {
@@ -1304,7 +1304,7 @@ problem_mapping = {
                 "total": 314
             },
             "Java: SearchFirstKey.java": {
-                "passed": 0,
+                "passed": 314,
                 "total": 314
             },
             "Python: search_first_key.py": {
@@ -1332,7 +1332,7 @@ problem_mapping = {
                 "total": 307
             },
             "Java: SearchShiftedSortedArray.java": {
-                "passed": 0,
+                "passed": 307,
                 "total": 307
             },
             "Python: search_shifted_sorted_array.py": {
@@ -1346,7 +1346,7 @@ problem_mapping = {
                 "total": 2000
             },
             "Java: IntSquareRoot.java": {
-                "passed": 0,
+                "passed": 2000,
                 "total": 2000
             },
             "Python: int_square_root.py": {
@@ -1460,7 +1460,7 @@ problem_mapping = {
                 "total": 305
             },
             "Java: IsStringPermutableToPalindrome.java": {
-                "passed": 0,
+                "passed": 305,
                 "total": 305
             },
             "Python: is_string_permutable_to_palindrome.py": {
@@ -1474,7 +1474,7 @@ problem_mapping = {
                 "total": 212
             },
             "Java: IsAnonymousLetterConstructible.java": {
-                "passed": 0,
+                "passed": 212,
                 "total": 212
             },
             "Python: is_anonymous_letter_constructible.py": {
@@ -1488,7 +1488,7 @@ problem_mapping = {
                 "total": 101
             },
             "Java: LruCache.java": {
-                "passed": 0,
+                "passed": 101,
                 "total": 101
             },
             "Python: lru_cache.py": {
@@ -1516,7 +1516,7 @@ problem_mapping = {
                 "total": 505
             },
             "Java: NearestRepeatedEntries.java": {
-                "passed": 0,
+                "passed": 505,
                 "total": 505
             },
             "Python: nearest_repeated_entries.py": {

@@ -4,27 +4,50 @@ import epi.test_framework.EpiUserType;
 import epi.test_framework.GenericTest;
 import epi.test_framework.TestFailure;
 
+import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
 public class CircularQueue {
 
   public static class Queue {
-    public Queue(int capacity) {}
+    private Integer[] storage;
+    private int size = 0, head = 0, tail = 0;
+
+    public Queue(int capacity) {
+      storage = new Integer[capacity];
+    }
+
+    public boolean isEmpty() {
+      return size == 0;
+    }
+
     public void enqueue(Integer x) {
-      // TODO - you fill in here.
-      return;
+      if (size == storage.length){
+        Collections.rotate(Arrays.asList(storage), -head);
+        head = 0;
+        tail = size;
+        int newSize = storage.length * 2;
+        storage = Arrays.copyOf(storage, newSize);
+      }
+      storage[tail] = x;
+      tail = (tail + 1) % storage.length;
+      size++;
     }
+
     public Integer dequeue() {
-      // TODO - you fill in here.
-      return 0;
+      if (size != 0) {
+        Integer end = storage[head];
+        head = (head + 1) % storage.length;
+        size--;
+        return end;
+      }
+      return null;
     }
-    public int size() {
-      // TODO - you fill in here.
-      return 0;
-    }
+    public int size() { return size; }
+
     @Override
     public String toString() {
-      // TODO - you fill in here.
-      return super.toString();
+      return String.format("Queue{ head=%d, tail=%d, entries=%s }", head, tail, storage);
     }
   }
   @EpiUserType(ctorParams = {String.class, int.class})

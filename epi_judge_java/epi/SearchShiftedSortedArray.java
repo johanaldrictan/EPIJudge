@@ -7,8 +7,16 @@ public class SearchShiftedSortedArray {
   @EpiTest(testDataFile = "search_shifted_sorted_array.tsv")
 
   public static int searchSmallest(List<Integer> A) {
-    // TODO - you fill in here.
-    return 0;
+    int left = 0, right = A.size() - 1;
+    while(left < right){
+      int mid = left + ((right - left) /2);
+      if(A.get(mid) > A.get(right))
+        left = mid + 1;
+      else{
+        right = mid;
+      }
+    }
+    return left;
   }
 
   public static void main(String[] args) {

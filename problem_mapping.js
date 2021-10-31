@@ -1616,7 +1616,7 @@ problem_mapping = {
                 "total": 202
             },
             "Java: IntersectSortedArrays.java": {
-                "passed": 0,
+                "passed": 202,
                 "total": 202
             },
             "Python: intersect_sorted_arrays.py": {
@@ -1630,7 +1630,7 @@ problem_mapping = {
                 "total": 201
             },
             "Java: TwoSortedArraysMerge.java": {
-                "passed": 0,
+                "passed": 201,
                 "total": 201
             },
             "Python: two_sorted_arrays_merge.py": {
@@ -1800,7 +1800,7 @@ problem_mapping = {
                 "total": 3139
             },
             "Java: IsTreeABst.java": {
-                "passed": 0,
+                "passed": 3139,
                 "total": 3139
             },
             "Python: is_tree_a_bst.py": {
@@ -1814,7 +1814,7 @@ problem_mapping = {
                 "total": 949
             },
             "Java: SearchFirstGreaterValueInBst.java": {
-                "passed": 0,
+                "passed": 949,
                 "total": 949
             },
             "Python: search_first_greater_value_in_bst.py": {
@@ -1828,7 +1828,7 @@ problem_mapping = {
                 "total": 949
             },
             "Java: KLargestValuesInBst.java": {
-                "passed": 0,
+                "passed": 949,
                 "total": 949
             },
             "Python: k_largest_values_in_bst.py": {
@@ -1842,7 +1842,7 @@ problem_mapping = {
                 "total": 951
             },
             "Java: LowestCommonAncestorInBst.java": {
-                "passed": 0,
+                "passed": 951,
                 "total": 951
             },
             "Python: lowest_common_ancestor_in_bst.py": {
@@ -1970,7 +1970,7 @@ problem_mapping = {
                 "total": 10
             },
             "Java: Hanoi.java": {
-                "passed": 0,
+                "passed": 10,
                 "total": 10
             },
             "Python: hanoi.py": {
@@ -1998,7 +1998,7 @@ problem_mapping = {
                 "total": 10
             },
             "Java: NQueens.java": {
-                "passed": 0,
+                "passed": 10,
                 "total": 10
             },
             "Python: n_queens.py": {
@@ -2152,7 +2152,7 @@ problem_mapping = {
                 "total": 1003
             },
             "Java: NumberOfScoreCombinations.java": {
-                "passed": 0,
+                "passed": 1003,
                 "total": 1003
             },
             "Python: number_of_score_combinations.py": {
@@ -2166,7 +2166,7 @@ problem_mapping = {
                 "total": 100
             },
             "Java: LevenshteinDistance.java": {
-                "passed": 0,
+                "passed": 100,
                 "total": 100
             },
             "Python: levenshtein_distance.py": {
@@ -2180,7 +2180,7 @@ problem_mapping = {
                 "total": 1775
             },
             "Java: NumberOfTraversalsMatrix.java": {
-                "passed": 0,
+                "passed": 1775,
                 "total": 1775
             },
             "Python: number_of_traversals_matrix.py": {
@@ -2222,7 +2222,7 @@ problem_mapping = {
                 "total": 100
             },
             "Java: Knapsack.java": {
-                "passed": 0,
+                "passed": 100,
                 "total": 100
             },
             "Python: knapsack.py": {
@@ -2372,7 +2372,7 @@ problem_mapping = {
                 "total": 103
             },
             "Java: TwoSum.java": {
-                "passed": 0,
+                "passed": 1005,
                 "total": 1005
             },
             "Python: minimum_points_covering_intervals.py": {
@@ -2390,7 +2390,7 @@ problem_mapping = {
                 "total": 1008
             },
             "Java: ThreeSum.java": {
-                "passed": 0,
+                "passed": 1008,
                 "total": 1008
             },
             "Python: three_sum.py": {
@@ -2404,7 +2404,7 @@ problem_mapping = {
                 "total": 201
             },
             "Java: MajorityElement.java": {
-                "passed": 0,
+                "passed": 201,
                 "total": 201
             },
             "Python: majority_element.py": {

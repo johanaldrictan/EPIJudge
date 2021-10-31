@@ -6,14 +6,31 @@ import epi.test_framework.TimedExecutor;
 
 import java.util.List;
 public class RefuelingSchedule {
+  private static class Helper {
+    public Integer city;
+    public Integer remainingGas;
+
+    public Helper(Integer city, Integer remainingGas) {
+      this.city = city;
+      this.remainingGas = remainingGas;
+    }
+  }
+
   private static final int MPG = 20;
 
   // gallons[i] is the amount of gas in city i, and distances[i] is the distance
   // city i to the next city.
   public static int findAmpleCity(List<Integer> gallons,
                                   List<Integer> distances) {
-    // TODO - you fill in here.
-    return 0;
+    int remainingGallons = 0;
+    Helper min = new Helper(0,0);
+    final int numCities = gallons.size();
+    for(int i = 1; i < numCities; i++){
+      remainingGallons += gallons.get(i - 1) - distances.get(i - 1) / MPG;
+      if( remainingGallons < min.remainingGas)
+        min = new Helper(i, remainingGallons);
+    }
+    return min.city;
   }
   @EpiTest(testDataFile = "refueling_schedule.tsv")
   public static void findAmpleCityWrapper(TimedExecutor executor,
